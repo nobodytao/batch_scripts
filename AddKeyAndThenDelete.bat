@@ -2,7 +2,7 @@
 
 Title AddKeyAndThenDelete
 
-REM Detect if the user has administrator's privileges
+REM Detect if the user has administrator privileges
 REM by trying to query registry branch "HKU\S-1-5-19".
 REM If there are no privileges goto :UACPrompt.
 REM Else goto :WorkScript
